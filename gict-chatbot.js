@@ -22,9 +22,9 @@ class GICTChatbot {
             "institute": {
                 "name": "Global Institute of Training (GICT)",
                 "tagline": "Empowering Future IT Professionals",
-                "established": "2010",
+                "established": "2019",
                 "affiliation": "Affiliated to UGC Recognized Universities",
-                "logo_url": "C:\Users\abhis\OneDrive\Desktop\gict\gict.JPEG", // Replace with actual logo URL
+                "logo_url": "gict.JPEG", // Replace with actual logo URL
                 "responses": {
                     "about": "🏫 <strong>Global Institute of Training (GICT)</strong> is a premier IT training institute established in 2010. We offer comprehensive online and offline courses in Information Technology and Computer Applications.<br><br>" +
                             "✅ <strong>Our Highlights:</strong><br>" +
@@ -227,7 +227,7 @@ class GICTChatbot {
             "faculty": {
                 "responses": {
                     "director": "👨‍💼 <strong>Institute Director</strong><br>" +
-                               "<strong>Name:</strong> Prof. Rajesh Kumar<br>" +
+                               "<strong>Name:</strong> Prof. Brijesh Patel<br>" +
                                "<strong>Qualification:</strong> M.Tech (Computer Science), PhD<br>" +
                                "<strong>Experience:</strong> 20+ Years in IT Industry & Education<br>" +
                                "<strong>Specialization:</strong> Artificial Intelligence, Software Engineering<br>" +
@@ -268,21 +268,21 @@ class GICTChatbot {
             
             "contact": {
                 "responses": {
-                    "main": "📞 <strong>Contact GICT - Global Institute of Training</strong><br><br>" +
+                    "main": "📞 <strong>Contact GICT - Global College Of IT</strong><br><br>" +
                            "<strong>📍 Address:</strong><br>" +
-                           "Global Institute of Training (GICT)<br>" +
-                           "123, IT Park Road, Near City Center<br>" +
-                           "Ahmedabad - 380015, Gujarat, India<br><br>" +
+                           "Global Institute of IT (GICT)<br>" +
+                           "Madardiah  Mugra badshahpur <br>" +
+                           "Jaunpur - 222202, Uttar Pradesh, India<br><br>" +
                            "<strong>📱 Phone Numbers:</strong><br>" +
-                           "• Reception: +91-XXXXXXXXXX<br>" +
-                           "• Admission Cell: +91-XXXXXXXXXX<br>" +
-                           "• Placement Cell: +91-XXXXXXXXXX<br><br>" +
+                           "• Reception: +91-8433377466<br>" +
+                           "• Admission Cell: +91-8433377466<br>" +
+                           "• Placement Cell: +91-8433377466<br><br>" +
                            "<strong>📧 Email Addresses:</strong><br>" +
-                           "• General Enquiry: info@gict.in<br>" +
+                           "• General Enquiry: gictcomputer.edu@gmail.com<br>" +
                            "• Admissions: admission@gict.in<br>" +
                            "• Placement: placement@gict.in<br>" +
                            "• Support: support@gict.in<br><br>" +
-                           "<strong>🌐 Website:</strong> www.gict.in<br><br>" +
+                           "<strong>🌐 Website:</strong> www.gict.org.in<br><br>" +
                            "<strong>⏰ Office Hours:</strong><br>" +
                            "• Monday to Friday: 8:00 AM - 7:00 PM<br>" +
                            "• Saturday: 9:00 AM - 5:00 PM<br>" +
@@ -291,7 +291,7 @@ class GICTChatbot {
                     
                     "admission": "🎓 <strong>Admission Information</strong><br><br>" +
                                "<strong>For Admissions Contact:</strong><br>" +
-                               "📱 Phone: +91-XXXXXXXXXX<br>" +
+                               "📱 Phone: +91-8433377466<br>" +
                                "📧 Email: admission@gict.in<br><br>" +
                                "<strong>Admission Process:</strong><br>" +
                                "1. Visit the institute or fill online form<br>" +
@@ -308,7 +308,7 @@ class GICTChatbot {
                     "online_support": "💻 <strong>Online Learning Support</strong><br><br>" +
                                     "For online students, we provide:<br>" +
                                     "• 📧 Email Support: support@gict.in<br>" +
-                                    "• 📱 WhatsApp Support: +91-XXXXXXXXXX<br>" +
+                                    "• 📱 WhatsApp Support: +91-8433377466<br>" +
                                     "• 🎥 Live Technical Support: 10 AM - 6 PM<br>" +
                                     "• 📚 LMS Access: lms.gict.in<br>" +
                                     "• 📝 Query Resolution: Within 24 hours"
@@ -487,7 +487,7 @@ class GICTChatbot {
                 
                 "farewell": "👋 <strong>Thank you for connecting with GICT!</strong><br><br>" +
                            "For any further queries:<br>" +
-                           "📞 Call us at +91-XXXXXXXXXX<br>" +
+                           "📞 Call us at +91-8433377466<br>" +
                            "📧 Email: info@gict.in<br>" +
                            "🌐 Visit: www.gict.in<br><br>" +
                            "Wishing you success in your career! 🎓<br>" +
@@ -520,7 +520,7 @@ class GICTChatbot {
                 <div id="gict-chat-window" class="gict-hidden">
                     <div class="gict-chat-header">
                         <div style="display: flex; align-items: center;">
-                            <img src="gict-logo.png" alt="GICT Logo" class="gict-chat-header-logo" style="width:40px;height:40px;margin-right:10px;border-radius:50%;">
+                            <img src="gict.jpeg" alt="GICT Logo" class="gict-chat-header-logo" style="width:40px;height:40px;margin-right:10px;border-radius:50%;">
                             <h3>GIC - GICT Assistant</h3>
                         </div>
                         <button id="gict-close-btn" title="Close">×</button>
@@ -528,7 +528,7 @@ class GICTChatbot {
                     
                     <div id="gict-chat-messages">
                         <div class="gict-message gict-bot-message">
-                            <img src="gict-logo.png" alt="GICT" class="gict-bot-avatar" style="width:25px;height:25px;border-radius:50%;margin-right:8px;">
+                            <img src="gict.jpeg" alt="GICT" class="gict-bot-avatar" style="width:25px;height:25px;border-radius:50%;margin-right:8px;">
                             <div>
                                 ${this.knowledgeBase.default_responses.greeting}
                             </div>
@@ -900,7 +900,7 @@ class GICTChatbot {
             messageDiv.textContent = text;
         } else {
             messageDiv.innerHTML = `
-                <img src="gict-logo.png" alt="GICT" class="gict-bot-avatar" style="width:25px;height:25px;border-radius:50%;margin-right:8px;">
+                <img src="gict.jpeg" alt="GICT" class="gict-bot-avatar" style="width:25px;height:25px;border-radius:50%;margin-right:8px;">
                 <div>${text}</div>
             `;
         }
@@ -920,7 +920,7 @@ class GICTChatbot {
         typingDiv.className = 'gict-typing-indicator';
         typingDiv.id = 'gict-typing-indicator';
         typingDiv.innerHTML = `
-            <img src="gict-logo.png" alt="GICT" style="width:25px;height:25px;border-radius:50%;margin-right:8px;">
+            <img src="gict.jpeg" alt="GICT" style="width:25px;height:25px;border-radius:50%;margin-right:8px;">
             <div class="gict-typing-dot"></div>
             <div class="gict-typing-dot"></div>
             <div class="gict-typing-dot"></div>
