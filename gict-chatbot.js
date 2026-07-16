@@ -514,7 +514,7 @@ class GICTChatbot {
             container.id = 'gict-chatbot-container';
             container.innerHTML = `
                 <button id="gict-toggle-btn" title="Chat with GIC">
-                    <span><img src="gict-logo.png" alt="GICT" style="width:30px;height:30px;border-radius:50%;"> 💬</span>
+                    <span><img src="gict.jpeg" alt="GICT" style="width:30px;height:30px;border-radius:50%;"> 💬</span>
                 </button>
                 
                 <div id="gict-chat-window" class="gict-hidden">
